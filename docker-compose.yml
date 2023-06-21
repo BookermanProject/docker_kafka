@@ -33,6 +33,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /config/kafka-server-start.sh:/opt/kafka/bin/kafka-server-start.sh:ro,Z
     depends_on:
       - zookeeper
   kafka2:
@@ -51,5 +52,6 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /config/kafka-server-start.sh:/opt/kafka/bin/kafka-server-start.sh:ro,Z
     depends_on:
       - zookeeper
