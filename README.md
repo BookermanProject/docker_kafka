@@ -1,6 +1,6 @@
 # Apache Kafka
 
-# ![images](https://github.com/BookermanProject/docker_kafka/assets/68779402/b25559f6-96c8-44bb-9005-f2b246302dc0)
+![images](https://github.com/BookermanProject/docker_kafka/assets/68779402/b25559f6-96c8-44bb-9005-f2b246302dc0)
 
 
 [⚙️ Kafka를 사용하고자 하는 이유](https://www.notion.so/Kafka-4393de8caa454aa4baccabeed556de67) 
